@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#232a52"/>
+      <stop offset="1" stop-color="#141733"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e2c98f"/>
+      <stop offset="1" stop-color="#c9a464"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#g)"/>
+  <rect x="6.5" y="6.5" width="51" height="51" rx="10.5" fill="none" stroke="url(#b)" stroke-width="1.4" opacity=".75"/>
+  <!-- 信封 -->
+  <g transform="translate(0,1)">
+    <rect x="13" y="19" width="38" height="26" rx="2.5" fill="none" stroke="url(#b)" stroke-width="2.2"/>
+    <path d="M13.5 21 L32 35 L50.5 21" fill="none" stroke="url(#b)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- 齿轮 -->
+  <g transform="translate(32,32)" fill="url(#b)">
+    <circle cx="0" cy="0" r="7.2" fill="none" stroke="url(#b)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2.3"/>
+    <g stroke="url(#b)" stroke-width="2.1" stroke-linecap="round">
+      <path d="M0 -11 L0 -8"/><path d="M0 8 L0 11"/>
+      <path d="M-11 0 L-8 0"/><path d="M8 0 L11 0"/>
+      <path d="M-7.8 -7.8 L-5.7 -5.7"/><path d="M5.7 5.7 L7.8 7.8"/>
+      <path d="M7.8 -7.8 L5.7 -5.7"/><path d="M-5.7 5.7 L-7.8 7.8"/>
+    </g>
+  </g>
+</svg>
